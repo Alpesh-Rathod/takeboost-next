@@ -30,8 +30,6 @@ export default function HeroSection() {
           --white: #ffffff;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-
         .hero-sick-section {
           min-height: 100vh;
           width: 100%;
@@ -138,7 +136,7 @@ export default function HeroSection() {
 
         .divider-arrow {
           color: rgba(255,255,255,0.8);
-          margin-top: 8px;
+          margin-top: 0px;
           font-size: 20px;
         }
 
@@ -199,7 +197,6 @@ export default function HeroSection() {
       `}</style>
 
       <section className="hero-sick-section">
-
         {/* Divider */}
         <div className="divider">
           <div className="divider-line" />

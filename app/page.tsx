@@ -1,6 +1,8 @@
 import Banner from "../components/home/Banner";
 import HeroSection from "../components/home/HeroSection";
 import IngredientsBanner from "../components/home/IngredientsBanner";
+import Ingredientssection from "../components/home/Ingredientssection";
+import HealthBadges from "../components/home/HealthBadges";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
         <Banner />
         <HeroSection />
         <IngredientsBanner />
+        <Ingredientssection />
+        <HealthBadges />
       </div>
     </main>
   );

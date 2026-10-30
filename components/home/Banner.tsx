@@ -94,7 +94,6 @@ export default function Banner() {
               </button>
             </div>
           </div>
-
         </div>
       </div>
 
